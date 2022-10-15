@@ -1,0 +1,171 @@
+package mukesh;
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Write a program to swap two number. For example a=10 and b=20 output should be a=20 and b=10
+
+		 /* int a =20;
+		  int b = 10 
+		 
+  * 1 st method
+		     a=b;
+		    b = a+10;
+		    
+		    System.out.println("a value is "+ a);
+		   
+		    System.out.println("b value is "+ b);*/
+..............................................................................
+		//Second method    
+		int a =20;
+		  int b = 10; int c;
+		  
+		  c= a;
+		  a=b;
+		  b= c;
+..........................................................................................
+
+// Third method
+		   /* a = a+b;// a = 30
+		    b = a-b;// b = 20
+		     a = a-b;// a = 10*/
+		     
+		  
+		     System.out.println("a value is "+ a);
+			   
+			 System.out.println("b value is "+ b);
+		    
+
+
+	}
+
+}
+
+.....................................................................................................
+//Write a program to print the average of below 5 numbers.
+		//10,90.78,111,8989,7876
+		
+        int a = 10;  double b = 90.78;
+		
+		int c = 111; int d =  8989; int e = 7876;
+		
+		double Avg = (a+b+c+d+e)/5;
+		
+		System.out.println("The average of 5 numbers is  " + Avg);
+	}
+
+....................................................................................................................
+
+//Write a program which will break the current execution if it find number 85
+			//Input – [12,34,66,85,900]
+		
+		int numberarray[] = {12,34,66,85,900};
+		
+		for(int i =0; i<= numberarray.length-1; i++) {
+		
+		if(numberarray[i] ==85) {
+			
+			System.out.println(numberarray[i] );
+			break;
+....................................................................................................................................
+
+//Write a program which will break the current execution if it find “Selenium”
+		//Input – [“Java”,”JavaScript”,”Selenium”,”Python”,”Mukesh”]
+		
+		
+		String courses[] = {"Java","Javascript","Selenium","Python","Mukesh"};
+		
+		for(int i =0; i <= courses.length-1 ; i++) {
+			
+			System.out.println(courses[i]);
+			
+			if( courses[i].equalsIgnoreCase("selenium"))
+				
+				break;
+....................................................................................................................................................
+
+// Write a program to print all even numbers from 1-200
+
+		
+		for(int i = 1; i <=200; i++)
+		{
+			if(i%2 ==0) {
+			System.out.println(i);
+			
+			}
+	}	
+........................................................................................................................................
+
+//Write a program to print all odd numbers from 1-50
+
+		
+		  for(int i = 1; i<=50; i++) {
+			  
+			  if(i%2!=0) {System.out.println(i);
+
+.............................................................................................................................................
+
+//Write a program to print the sum of below 5 numbers.
+			//10,90.78,111,8989,7876
+		
+		int a = 10;
+		
+		double b = 90.78;
+		
+		int c = 111; int d = 8989; int e = 7876;
+		
+		double sum = a+b+c+d+e;
+		
+		System.out.println("The sum of the 5 numbers are " +sum);
+
+.............................................................................................................................................
+
+// Write a program to print below students marks who have scored above 80
+		//Example- 78,12,89,55,35
+		//Output-  78,89
+		
+		int Smarks[] = { 78,12,89,55,35,91,93,95,100};
+		
+		System.out.println("Smarks array length is  "+Smarks.length);
+		
+		for(int i = 0; i<=Smarks.length-1;i++)
+			
+					if(Smarks[i]>80)	
+						
+			System.out.println(Smarks[i]);
+.................................................................................................................................................
+//Write a program to print all prime numbers from 1-1000
+// prime number means it has to divisible by 1 & it's own number
+		
+		for(int i=1;i<=1000;i++) {  
+			int count = 0; 
+			for(int j=1;j<=i;j++) {
+				
+				if(i%j==0)
+					count++;
+				
+			}
+	
+				if(count==2)
+				System.out.println(i);
+			}
+.......................................................................................................................................
+
+/Write a program to print below pattern means * in ascending order
+
+		for(int i =1;i<=6;i++) {
+			
+			for(int j =1; j<=i;j++) {
+				
+				System.out.print("*");
+			}
+		
+		
+		System.out.println();
+		}
+		
+					
+			  		
+
+
